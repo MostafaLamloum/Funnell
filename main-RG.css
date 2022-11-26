@@ -1,0 +1,63 @@
+body{
+    padding-top: 20px;
+    margin: 20px;
+
+}
+.img-logo{
+    border-color: black;
+    width: 50%;
+}
+.creat-text{
+    margin: 20px;
+    margin-top: 20px;
+    color: gray;
+}
+.butn{
+    text-align: left;
+    font-size: 15px;
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 5px; 
+}
+.btn-facebook{
+    color: #3c5a9a;
+    border-color:#3c5a9a;
+}
+.btn-facebook:hover{
+    background-color: #3c5a9a;
+    color: #fff;
+}
+i:hover{
+    color: #fff;
+}
+.btn-google{
+    color: #dc4a3d;
+    border-color:#dc4a3d;
+
+}
+.btn-google:hover{
+    background-color: #dc4a3d;
+    color: #fff;
+}
+.btn-mail{
+    color: rgb(92 192 70);
+    border-color: rgb(92 192 70);
+    
+}
+.btn-mail:hover{
+    background-color: rgb(92 192 70);
+    color: #fff;
+}
+.creat-btn:hover{
+    background-color: #fff;
+    color: #06b74a;
+}
+.login-btn:hover{
+    background-color: #fff;
+    color: #06b74a;
+}
+
+
+
+

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page Title -->
+    <title>Funnelll | Run Marketing Campaigns that Work - Login</title>
+
+    <!-- Link CSS files -->
+    <link rel="stylesheet" href="main-RG.css" />
+
+    <!-- Search description -->
+    <meta name="description" content="Get the most out of your marketing budget | Funnelll"/>
+    <script  src="https://kit.fontawesome.com/9b7a1a5944.js" crossorigin="anonymous"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+      
+
+    <!-- FavIcon for browser -->
+    <link rel="icon" href="Img/favicon.ico" />
+    <link type="text" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans+Text:400&text=%E2%86%90%E2%86%92%E2%86%91%E2%86%93&lang=en">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="logo">
+                        <a href="">
+                            <img class="img-logo" src="Img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="creat-text">
+                        <h1>Log In To Your Account</h1>
+                        <h5>Don't have an account yet? <span><a href="" style="margin-left: 10px;color: #06b74a;">Register Here</a></span></h5>
+                    </div>
+                    <br>
+                    <div id="socialOption">
+                        <div >
+                            <button class="butn btn-facebook" ><i class='fab fa-facebook-f' style='font-size:20px;color:royalblue; margin-right: 100px;'></i> <span>LOG IN USING FACEBOOK</span>  </button>
+                            <br>
+                            <br>
+                            <button class="butn btn-google" ><i class='fab fa-google' style='font-size:20px;color:red;margin-right: 100px;'></i> <span>LOG IN USING GOOGLE</span>  </button>
+                        </div>
+                        <hr>
+                        <button class="butn btn-mail" onclick="showForm();"><i class='fas fa-envelope' style='font-size:20px;color:rgb(92 192 70);margin-right: 100px;'></i> <span>LOGIN USING EMAIL</span>  </button>
+                    </div> 
+                    <div class="form" id="form" style="padding: 10px; display: none;">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <form action="" id="login-form">
+                                    <div class="form-group col-lg-12">
+                                      <label for="email">Email Address  *</label>
+                                      <input type="email" class="form-control" id="login-email" placeholder="Email Used During Registration">
+                                    </div>
+                                    <div class="form-group col-lg-12">
+                                      <label for="pwd">Password *</label>
+                                      <input type="password" class="form-control" id="login-password" placeholder="Enter Your Password">
+                                    </div>
+                                    <div class="form-group text-center">
+                                        <div class="col-lg-12" style="margin-top: 20px;">
+                                            <button id="btnLogin" class="btn-small login-btn" type="submit" style="font-size: 20px; color: rgb(255, 255, 255); background-color: #06b74a;border-color: rgb(116, 198, 51);border-radius: 10px;
+                                            padding:  10px 60px;margin-right: 15px;">Log In</button>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <h5>Forgot your password? Click here <a href="" style="color: #74c633">  Reset My Password</a> 
+                                        </div>
+                                        
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>                       
+                </div>
+                <div class="col-lg-8" style="background-color: #4c5081">
+                        <div class="col-sm-5">
+                            <div class="text" style="color: #fff;margin: 14px;">
+                                <h1>Get Started with our Interactive Tours</h1>
+                                <a href="" style="color: #fff;"><p>Start Your Tour Now ></p></a>
+                                <img src="Img/demo-call.png" alt="demo-call" style="width: 150px;">
+                                <h5>Get a guided free on-boarding call with the Funnelll team</h5>
+                                <button class="btn-small creat-btn" type="submit" style="color: #4c5081">Schedule a Call</button>
+                                <br>
+                                <img src="Img/help-portal.png" alt="help-portal" style="width: 150px;">
+                                <h5>Browse Videos and other resources on our help portal</h5>
+                                <button class="btn-small creat-btn" type="submit" style="color: #4c5081">Visit Help Portal</button>
+                            </div>
+                        </div>
+                        <div class="col-sm-7" style="text-align:center ;">
+                            <img src="Img/login-background.png" alt="login-background" style="width: 105%;margin-top: 40%;">
+                        </div>                        
+                </div>
+            </div>
+        </section>
+        
+<script>
+    
+    function showForm() {
+        document.getElementById('form').style.display = 'inherit';
+        document.getElementById('socialOption').style.display = 'none';
+    }
+</script>
+
+
+
+
+
+
+
+
+          <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-app-compat.js"></script>
+          <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-auth-compat.js"></script>
+
+          <script>
+        
+
+        const firebaseConfig = {
+    apiKey: "AIzaSyCFZQtp4fyRNl4MC56C8drxJfn6yaKqpUw",
+    authDomain: "funnell-auth.firebaseapp.com",
+    projectId: "funnell-auth",
+    storageBucket: "funnell-auth.appspot.com",
+    messagingSenderId: "907960013071",
+    appId: "1:907960013071:web:cde75dc11022eb5286ae7a"
+  };
+
+
+  
+          </script>
+        
+        
+        <script src="auth.js"></script>
+        
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
