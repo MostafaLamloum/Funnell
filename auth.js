@@ -42,14 +42,14 @@ function authState() {
   auth.onAuthStateChanged(user => {
       if (user) {
         console.log('user logged in: ', user);
-        // document.getElementById("user").innerHTML = user.email
-        // document.getElementById("user").setAttribute("href", "/user.html")
-        // document.getElementById("logout").style.display = "block"
+         document.getElementById("user").innerHTML = user.email
+         document.getElementById("user").setAttribute("href", "/user.html")
+         document.getElementById("logout").style.display = "block"
       } else {
         console.log('user logged out', user);
-        // document.getElementById("user").innerHTML = "Login"
-        // document.getElementById("user").setAttribute("href", "./login.html")
-        // document.getElementById("logout").style.display = "none"
+         document.getElementById("user").innerHTML = "Login"
+         document.getElementById("user").setAttribute("href", "./login.html")
+         document.getElementById("logout").style.display = "none"
       }
   });
 }
